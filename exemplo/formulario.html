@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- Qual o idioma base do conteúdo -->
+<html lang="en">
+
+<!-- Os dados que descrevem de alguma forma o conteúdo -->
+<head>
+    <!-- Qual é o mapa de caracteres que será utilizado -->
+    <meta charset="UTF-8">
+    <!-- Qual a proporção/escala dos elementos na tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título do documento -->
+    <title>Bolo de cenoura</title>
+    <!-- Arquivos que devem ser pré carregados antes do conteúdo -->
+</head>
+
+<!-- O que o usuário irá visualizar -->
+<body> 
+    <!-- 
+        action: destino
+    -->
+    <form action="/cadastro-realizado-com-sucesso.html" method="post">
+        <article>
+            <h1>Título</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis quia expedita. Dolore, voluptatum quod! Culpa iste iure exercitationem optio voluptatum, dolorum ut in commodi, rem a reiciendis, excepturi nam?</p>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div>
+                <label for="genero">Genero</label>
+                <select name="" id="">
+                    <option value="feminino">Feminino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="outros">Prefino não informar</option>
+                </select>
+            </div>
+            <div>
+                <p>Aceita o stermos?</p>
+                <div>
+                    <label for="">Sim</label>
+                    <input type="radio" name="termos" id="termos" value="sim">
+                </div>
+                <div>
+                    <label for="">Não</label>
+                    <input type="radio" name="termos" id="termos" value="nao">
+                </div>
+            </div>
+            <div>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </div>
+        </article>
+    </form>
+</body>
+
+</html>
